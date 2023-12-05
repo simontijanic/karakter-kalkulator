@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="app.js"></script>
+    <title>Karakter Kalkulator</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+
+        section {
+            margin-top: 2em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Karakter Kalkulator</h1>
+        <p>Du skal lage en slik oppgave som det her: Den skal regne ut karakter gjenommsnittet ditt.</p>
+        <h4>Ditt karakter gjennomsnitt er: N/A og antall frekvenser er:</h4>
+    
+    </header>
+
+    <section>
+        <div>
+            <input type="number" id="myInput">
+            <button type="submit" id="myButton">Legg til</button>    
+        </div>
+
+        <div>
+            <button type="button" id="popIndex">Fjern nyeste karakter</button>
+        </div>
+    </section>
+
+</body>
+</html>
